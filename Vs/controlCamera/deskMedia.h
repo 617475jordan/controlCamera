@@ -27,22 +27,30 @@ public:
 	int run(int flag);
 	void Initialize(PM_Hub * g_PM_Hub, string path);
 	bool  isOver();
-	void endVideoPlay();
+	void deleteQueue();
+	void deletePM();
+	void queue1Q();
+	void queue2Q();
+	void queue1L();
+	void queue2L();
 	int help(string path);
+	bool getQueueId(CQueue *queue);
 private:
-	CQueue *queue1;
+	CQueue *queue1, *queue2;
 	PM_Hub * m_PM_Hub;
 
-	int clientID, RectWidth, RectHeight;
-
-	int fps;
-	int m_iVideoNum;
+	int clientID_1, clientID_2, RectWidth, RectHeight, fps;
+	int m_iCount;
 	int m_iMaxVideoNum;
 	int m_iMinVideoNum;
 	bool m_flag;
-	bool getQueueIdFlag = false;
 	bool m_runFlag;
-	string VideoName;
-	vector<string> fileName;
+	vector<string> m_strMedia;
+	vector<string> m_strMediaName;
+	vector<CQueue*> g_vecQueue;
+	int m_iMedia = 4;
+	bool m_bQueueL;
+	bool m_bQueueP;
+
 };
 

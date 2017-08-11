@@ -1,8 +1,13 @@
 1
+2
 1024
 768
 30
-1\1
-2\2
 defaultMedia\60001_Big Media\60001_Big Media
 defaultMedia\60003_Small Media\60003_Small Media
+defaultMedia\taizi\taizi_L
+defaultMedia\taizi\taizi_P
+defaultMedia\taizi\taizi_L
+defaultMedia\60001_Big Media\60001_Big Media
+defaultMedia\60003_Small Media\60003_Small Media
+defaultMedia\taizi\taizi_P

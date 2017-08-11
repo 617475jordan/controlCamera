@@ -18,13 +18,13 @@ private:
 	float  m_fOriginalPosition;
 	float m_fSpeend;
 	int m_fCurrentPositionFlag;
-	
+
 	int nLen;
 	bool m_bIsOk;
-	float m_fThreshold = 1000;
+	float m_fThreshold = 500;
 private:
 	MFastUDP*				m_pUDP;
-	
+
 };
 
 

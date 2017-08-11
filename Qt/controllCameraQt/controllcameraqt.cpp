@@ -45,10 +45,10 @@ void controllCameraQt::pushButton_4()
 {
 	if (m_initialFlag == true)
 	{
-
+		m_iButtonFlag = 0;
+		m_iNewPlay = 0;
 	}
-	m_iButtonFlag = 0;
-	m_iNewPlay = 0;
+	
 }
 void controllCameraQt::Initialize()
 {
@@ -60,7 +60,7 @@ void controllCameraQt::Initialize()
 	//deskMedia.run();
 	//machineReader.Initialize();
 	timer->start(5);
-	ui.label_3->setText("00:00:00");
+	ui.label_3->setText("start");
 	m_initialFlag = true;
 	
 }
@@ -79,10 +79,10 @@ void controllCameraQt::closeClicked()
 {
 	if (videoFlag == true && m_initialFlag==true)
 	{
-		deskMedia.endVideoPlay();
 		timer->stop();
+		deskMedia.deletePM();
 		videoFlag = false;
-		ui.label_3->setText("00:00:00");
+		ui.label_3->setText("over");
 	}
 
 }

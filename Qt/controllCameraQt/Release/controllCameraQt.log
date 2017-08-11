@@ -1,18 +1,12 @@
-﻿Build started 2017/8/10 17:45:08.
+﻿Build started 2017/8/10 18:02:02.
      1>Project "C:\Users\admin\Desktop\code\controllCameraQt\controllCameraQt\controllCameraQt.vcxproj" on node 2 (Build target(s)).
-     1>CustomBuild:
-         Moc'ing controllcameraqt.h...
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_controllcameraqt.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_controllcameraqt.cpp, GeneratedFiles\Release\moc_controllcameraqt.cpp.
-       ClCompile:
-         D:\software\visual_studio_ultimate_2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\software\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Release /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtCore /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtGui /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D BOOST_ALL_DYN_LINK /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_controllcameraqt.cpp controllcameraqt.cpp deskMedia.cpp main.cpp
+     1>ClCompile:
+         D:\software\visual_studio_ultimate_2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\software\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Release /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtCore /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtGui /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D BOOST_ALL_DYN_LINK /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_controllcameraqt.cpp controllcameraqt.cpp main.cpp
          moc_controllcameraqt.cpp
          controllcameraqt.cpp
-         deskMedia.cpp
          main.cpp
          Generating Code...
-     1>c:\users\admin\desktop\code\controllcameraqt\controllcameraqt\deskmedia.cpp(114): warning C4715: 'deskMedia::run' : not all control paths return a value
-         D:\software\visual_studio_ultimate_2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\software\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Release /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtCore /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtGui /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D BOOST_ALL_DYN_LINK /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_controllcameraqt.cpp
-         qrc_controllcameraqt.cpp
        Link:
          D:\software\visual_studio_ultimate_2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Desktop\code\controllCameraQt\Win32\Release\\controllCameraQt.exe" /NOLOGO /LIBPATH:D:\software\Qt5.5.0\5.5\msvc2013\lib /LIBPATH:\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kinect20.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\admin\Desktop\code\controllCameraQt\Win32\Release\controllCameraQt.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Desktop\code\controllCameraQt\Win32\Release\controllCameraQt.lib" /MACHINE:X86 /SAFESEH Release\controllcameraqt.obj
          Release\deskMedia.obj
@@ -27,4 +21,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:10.10
+Time Elapsed 00:00:07.53

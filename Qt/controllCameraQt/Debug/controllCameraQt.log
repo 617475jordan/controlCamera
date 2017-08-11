@@ -1,10 +1,10 @@
-﻿Build started 2017/8/10 17:34:45.
+﻿Build started 2017/8/11 16:24:31.
      1>Project "C:\Users\admin\Desktop\code\controllCameraQt\controllCameraQt\controllCameraQt.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_controllcameraqt.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_controllcameraqt.cpp, GeneratedFiles\Release\moc_controllcameraqt.cpp.
      1>ClCompile:
          D:\software\visual_studio_ultimate_2013\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\software\Qt5.5.0\5.5\msvc2013\include /I.\GeneratedFiles\Debug /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtCore /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtGui /ID:\software\Qt5.5.0\5.5\msvc2013\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D BOOST_ALL_DYN_LINK /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt deskMedia.cpp
          deskMedia.cpp
-     1>c:\users\admin\desktop\code\controllcameraqt\controllcameraqt\deskmedia.cpp(114): warning C4715: 'deskMedia::run' : not all control paths return a value
+     1>c:\users\admin\desktop\code\controllcameraqt\controllcameraqt\deskmedia.cpp(113): warning C4715: 'deskMedia::run' : not all control paths return a value
        Link:
          D:\software\visual_studio_ultimate_2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Desktop\code\controllCameraQt\Win32\Debug\\controllCameraQt.exe" /NOLOGO /LIBPATH:D:\software\Qt5.5.0\5.5\msvc2013\lib /LIBPATH:\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kinect20.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\admin\Desktop\code\controllCameraQt\Win32\Debug\controllCameraQt.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Desktop\code\controllCameraQt\Win32\Debug\controllCameraQt.lib" /MACHINE:X86 /SAFESEH Debug\controllcameraqt.obj
          Debug\deskMedia.obj
@@ -19,4 +19,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.99
+Time Elapsed 00:00:02.02

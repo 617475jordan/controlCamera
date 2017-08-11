@@ -37,7 +37,7 @@ void machineReader::currentPosition(float position)
 	{
 		m_fCurrentPositionFlag = -1;
 	}
-	if (abs(m_fSpeend )>= m_fThreshold)
+	if (abs(m_fSpeend) >= m_fThreshold)
 	{
 		m_bIsOk = true;
 	}
@@ -65,7 +65,7 @@ void machineReader::Initialize()
 }
 
 void machineReader::run()
-{	
+{
 	rotateMsg szMsg;
 	nLen = m_pUDP->GetResultMessage((char*)&szMsg, sizeof(rotateMsg));
 	if (nLen)

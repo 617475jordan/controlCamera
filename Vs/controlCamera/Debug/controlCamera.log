@@ -1,0 +1,29 @@
+﻿Build started 2017/8/11 16:32:42.
+     1>Project "C:\Users\admin\Desktop\code\controlCamera\controlCamera\controlCamera.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\software\visual_studio_ultimate_2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D BOOST_ALL_DYN_LINK /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt machineReader.cpp main.cpp
+         machineReader.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+     1>c:\users\admin\desktop\code\controlcamera\controlcamera\fastudp\mparamreader.h(13): warning C4005: 'MAX' : macro redefinition
+                 d:\software\opencv2.4.10\build\include\opencv2\core\types_c.h(291) : see previous definition of 'MAX'
+     1>c:\users\admin\desktop\code\controlcamera\controlcamera\machinereader.cpp(64): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\admin\desktop\code\controlcamera\controlcamera\machinereader.cpp(73): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         main.cpp
+       Link:
+         D:\software\visual_studio_ultimate_2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\admin\Desktop\code\controlCamera\Debug\controlCamera.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\3rdparty\boost\lib /LIBPATH:\lib kinect20.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\admin\Desktop\code\controlCamera\Debug\controlCamera.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\admin\Desktop\code\controlCamera\Debug\controlCamera.lib" /MACHINE:X86 Debug\deskMedia.obj
+         Debug\MFastUDP.obj
+         Debug\MParamReader.obj
+         Debug\machineReader.obj
+         Debug\main.obj
+         Debug\remapImage.obj
+         controlCamera.vcxproj -> C:\Users\admin\Desktop\code\controlCamera\Debug\controlCamera.exe
+     1>Done Building Project "C:\Users\admin\Desktop\code\controlCamera\controlCamera\controlCamera.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.40
